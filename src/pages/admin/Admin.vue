@@ -1,10 +1,9 @@
 <template>
-  <p>hello</p>
+    <p>This is Admin</p>
 </template>
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Admin',
 };
 </script>
-
