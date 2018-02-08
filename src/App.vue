@@ -1,13 +1,21 @@
 <template>
   <div id="app">
+    <topnavbar/>
     <img src="./assets/logo.png">
-    <router-view/>
+    <div class="container">
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <script>
+import topnavbar from '@/components/navigation/Navigation';
+
 export default {
   name: 'App',
+  components: {
+    topnavbar,
+  },
 };
 </script>
 
