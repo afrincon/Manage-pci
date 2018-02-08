@@ -9,6 +9,9 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Admin</a>
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a class="nav-link" href="#">Login</a></li>
@@ -24,11 +27,5 @@ export default {
 </script>
 
 <style scoped>
-.navbar {
-  background-color: #3097D1 !important;
-}
-nav.navbar a.nav-link {
-  color: white;
-}
 </style>
 
